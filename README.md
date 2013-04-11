@@ -40,7 +40,7 @@ MyApp::Application.routes.draw do
 
   resources :books, only_for: :json # will add mime match constraint for json
 
-  json_resources :users, :except => :edit # will add only_for:('json') constraint
+  json_resource :users, :except => :edit # will add only_for:('json') constraint
 
   app_root 'application#index' # will ensure html constraint
 end

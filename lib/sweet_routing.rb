@@ -21,6 +21,7 @@ module SweetRouting
 
       resources *args
     end
+    alias_method :json_resource, :json_resources
 
     protected
 
