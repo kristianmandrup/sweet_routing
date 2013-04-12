@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SweetRouting::VERSION
   spec.authors       = ["Kristian Mandrup"]
   spec.email         = ["kmandrup@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Sweet routing macros for Rails}
+  spec.summary       = %q{Clean up your routing with beautiful macros}
   spec.homepage      = ""
   spec.license       = "MIT"
 
